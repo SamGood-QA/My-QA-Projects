@@ -29,9 +29,6 @@
 | 3 | [Action] | [Expected Result] | - |
 | 4 | [Action] | [Expected Result] | **FAILED: [Actual Result]** |
 
-## Actual vs Expected
-**Expected:** [Expected system behavior]
-**Actual:** [Actual system behavior]
 
 ## Impact Assessment
 - [ ] Critical: System unusable (the entire project is down)
