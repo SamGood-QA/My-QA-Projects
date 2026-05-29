@@ -1,19 +1,18 @@
-# AC-TC-FUNC_MSG-002
+# AC-TC-CHAT-001
 
 ## Metadata
-* **Title**: Delete messages
+* **Title**: Sending a private message to a user
 * **Priority**: Critical
 * **Created By**: Aleksei Nikolaev
 * **Date**: 2026-05-06
 
 ## Objective
-Verification of deleting sent messages
+Verification of the message sending functionality
 
 ## Preconditions
 
 1. Page https://agentstack.tech/messenger is open
 2. User is authorized
-3. Есть отправленные сообщения пользователю
 
 ## Test Data
 * Email: `[test@example.com]`
@@ -23,12 +22,12 @@ Verification of deleting sent messages
 
 | # | Action | Expected Result | Actual Result |
 |---| :--- | :--- | :--- |
-| 1 | Right-click on the sent message | A dropdown menu appears | - |
-| 2 |Click "Delete message" | The message is deleted for the user | **Fail** |
+| 1 | Enter test message in the text field: "Test_123"| Text field displays: "Test_123" | - |
+| 2 | Click on the "Send" icon/button | Message is sent, a "Delivered" checkmark is present below the message | - |
 
 ## Status
-- [ ] Pass
-- [x] Fail 
+- [x] Pass
+- [ ] Fail 
 - [ ] Blocked
 - [ ] Skipped
 

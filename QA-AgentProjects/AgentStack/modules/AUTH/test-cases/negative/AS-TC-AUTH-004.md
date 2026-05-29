@@ -1,4 +1,4 @@
-# AS-TC-FUNC_AUTH-004
+# AS-TC-AUTH-004
 
 ## Metadata
 * **Title**: Registration of a user with invalid data
